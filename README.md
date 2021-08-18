@@ -1,30 +1,25 @@
 # Offline Budget Tracker
 
-## What is the project?
+## Project Description
 
 This project demonstrates the use of JavaScript in conjunction with indexedDB and MongoDB. With this Budget Tracker, a user can log different types of income and expenses even in the case of loss of internet.
+
+## Project Screenshot  
+
+![Offline Budget Tracker](public/images/image1.png)
 
 ## Link to Deployed Project  
 
 https://shielded-badlands-97336.herokuapp.com/
 
 
-## Why did I decide to do this project?
+## Background
 
 I love tracking my finances and knowing where I am with my monthly budget and saving goals. I am also a very visual person and like seeing a visual representation of my incoming and outgoing money. I also love the idea and the app continuing to work in the event of the internet disconnecting.
 
-## What I learned in the process?
+## Learnings
 
 I learned a lot more about MongoDB and learned some additional features that the browser has such as indexedDB.
-
-## What makes this project stand out?
-
-This application is really useful for someone who is loves to keep a budget and wants to stay on top of their finances. It is perfect for people traveling who might not always have access to the internet to be able to log their expenses. With this app, such a person could log all their incomes and expenses and then once they got to a place with interner, the logs would be transfered to the database.
-
-## Project Screenshot  
-
-![Offline Budget Tracker](public/images/image1.png)
- 
 
 ## Testing
 
@@ -32,7 +27,7 @@ To test the offline functionality of this app:
 
 ![Offline Budget Tracker](public/images/image2.png)
 
-1. Right-click on the application and click on "Inspector" to open the web dev tools.
+1. Right-click on the application and click on "Inspect" to open the web dev tools.
 
 ![Offline Budget Tracker](public/images/image3.png)
 
@@ -46,7 +41,7 @@ To test the offline functionality of this app:
 
 4. Select "Offline"
 
-Now, when you start adding transaction, the app will continue working as normal but you will see in the Network Activity window logs for failed transactions.
+Now, when you start adding transactions, the app will continue working as normal but you will see in the Network Activity window logs for failed transactions.
 
 ![Offline Budget Tracker](public/images/image6.png)
 
@@ -60,7 +55,7 @@ Image: "bulk" log showing successful transfer.
 
 ## Credits
 
-Thank you to Columbia's Full-Stack Web Developer bootcamp for all the assistance and for teaching me all that I have learned. Credit also goes to Google for helping me find any needed resource.
+Thank you to Columbia's Full-Stack Web Developer bootcamp for all the assistance and for teaching me all that I have learned.
 
 ## Licence
 
